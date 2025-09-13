@@ -139,15 +139,49 @@ tts_handler = TTSHandler()
 
 # mapping gesture -> pesan + warna + tts
 gesture_map = {
-    "Halo": {"name": "five fingers", "message": "Halooooo 👋", "color": (0, 0, 255), "tts_text": "Haloo!"},
-    "OK": {"name": "OK", "message": "Okeee", "color": (0, 255, 0), "tts_text": "wokeee"},
-    "I Love You": {"name": "Metal", "message": "Mari berteman dengan baik ❤️", "color": (255, 0, 100), "tts_text": "Mari berteman dengan baik"},
-    "Peace": {"name": "two fingers", "message": "Jurusan Teknik Informatika", "color": (0, 255, 0), "tts_text": "Jurusan teknik informatika"},
-    "Fist": {"name": "Fist", "message": "Semangat 👊", "color": (255, 255, 0), "tts_text": "Belok kanan"},
-    "Sip": {"name": "Sip", "message": "Cihuyyyy", "color": (0, 100, 255), "tts_text": "cihuyyy"},
-    "Pointing": {"name": "Pointing", "message": "Nama saya Muhamad Farel Fauzan", "color": (0, 100, 255), "tts_text": "Nama saya muhamad farel fauzan"},
-    "Three Fingers Up": {"name": "three fingers", "message": "Asal sekolah dari SMKN 2 Kuningan", "color": (100, 200, 255), "tts_text": "Asal sekolah dari SMKN 2 Kuningan"},
-    "Double": {"name": "easter egg", "message": "Absolute Cinema", "color": (0, 100, 255), "tts_text": "Absolute cinemaa"},
+    "Halo": {
+        "name": "five fingers",
+        "message": "Halooooo!", 
+        "color": (0, 0, 255), 
+        "tts_text": "Haloo!"},
+    "OK": {
+        "name": "OK", 
+        "message": "Okeee", 
+        "color": (0, 255, 0), 
+        "tts_text": "wokeee"},
+    "I Love You": {
+        "name": "Metal",
+        "message": "Mari berteman dengan baik", 
+        "color": (255, 0, 100), 
+        "tts_text": "Mari berteman dengan baik"},
+    "Peace": {
+        "name": "two fingers", 
+        "message": "Jurusan Teknik Informatika", 
+        "color": (0, 255, 0), 
+        "tts_text": "Jurusan teknik informatika"},
+    "Fist": {
+        "name": "Fist", "message": "Semangatt",
+        "color": (255, 255, 0), 
+        "tts_text": "Belok kanan"},
+    "Sip": {
+        "name": "bump",
+        "message": "Perkenalkan", 
+        "color": (0, 100, 255), 
+        "tts_text": "perkenalkan"},
+    "Pointing": {
+        "name": "Pointing", 
+        "message": "Nama saya Muhamad Farel Fauzan", 
+        "color": (0, 100, 255), 
+        "tts_text": "Nama saya muhamad farel fauzan"},
+    "Three Fingers Up": {
+        "name": "three fingers",
+        "message": "Asal sekolah dari SMKN 2 Kuningan", 
+        "color": (100, 200, 255), 
+        "tts_text": "Asal sekolah dari SMKN 2 Kuningan"},
+    "Double": {
+        "name": "easter egg", 
+        "message": "Absolute Cinema", 
+        "color": (0, 100, 255), "tts_text": "Absolute cinemaa"},
 }
 
 # untuk melacak gesture sebelumnya
