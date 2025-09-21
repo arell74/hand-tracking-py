@@ -146,9 +146,9 @@ gesture_map = {
         "tts_text": "Haloo!"},
     "OK": {
         "name": "OK", 
-        "message": "Okeee", 
+        "message": "Cihuyyy", 
         "color": (0, 255, 0), 
-        "tts_text": "wokeee"},
+        "tts_text": "cihuyyyy"},
     "I Love You": {
         "name": "Metal",
         "message": "Mari berteman dengan baik", 
@@ -156,9 +156,9 @@ gesture_map = {
         "tts_text": "Mari berteman dengan baik"},
     "Peace": {
         "name": "two fingers", 
-        "message": "Jurusan Teknik Informatika", 
+        "message": "Prodi Teknik Informatika", 
         "color": (0, 255, 0), 
-        "tts_text": "Jurusan teknik informatika"},
+        "tts_text": "prodi teknik informatika"},
     "Fist": {
         "name": "Fist", "message": "Semangatt",
         "color": (255, 255, 0), 
@@ -175,9 +175,9 @@ gesture_map = {
         "tts_text": "Nama saya muhamad farel fauzan"},
     "Three Fingers Up": {
         "name": "three fingers",
-        "message": "Asal sekolah dari SMKN 2 Kuningan", 
+        "message": "Fakultas Ilmu Komputer", 
         "color": (100, 200, 255), 
-        "tts_text": "Asal sekolah dari SMKN 2 Kuningan"},
+        "tts_text": "Fakultas Ilmu Komputer"},
     "Double": {
         "name": "easter egg", 
         "message": "Absolute Cinema", 
